@@ -23,4 +23,13 @@ public class button : MonoBehaviour
         transform.parent.gameObject.SetActive(false);
 
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player" )
+        {
+            this.transform.position = new Vector3(this.transform.position.x - .70f, this.transform.position.y, -21.24586f);
+            otherButton.SetActive(true);
+            transform.parent.gameObject.SetActive(false);
+        }
+    }
 }

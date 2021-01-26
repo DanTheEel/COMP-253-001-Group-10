@@ -21,6 +21,5 @@ public class buttonagain : MonoBehaviour
         // this object was clicked - do something
         area.SetActive(true);
         this.gameObject.SetActive(false);
-
     }
 }

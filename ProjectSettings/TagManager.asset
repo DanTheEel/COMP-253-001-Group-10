@@ -14,7 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - 
+  - player
   - 
   - 
   - 
@@ -26,10 +27,9 @@ TagManager:
   - 
   - 
   - 
+  - background
   - 
-  - 
-  - 
-  - 
+  - ground
   - 
   - 
   - 
